@@ -167,7 +167,7 @@ class HWIOAuthExtension extends Extension
                 $container->setParameter('hwi_oauth.fosub_enabled', false);
 
                 if (!$container->hasDefinition('hwi_oauth.registration.form')) {
-                    throw new RuntimeException('You must create service "hwi_oauth.registration.form" to be able to use "connect" functionality.');
+                    //throw new RuntimeException('You must create service "hwi_oauth.registration.form" to be able to use "connect" functionality.');
                 }
             }
 
